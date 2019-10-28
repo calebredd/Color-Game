@@ -1,0 +1,11 @@
+This is the color_game spec sheet:
+
+1. The idea is to make a web app that will help you learn the concepts of RGB while having a responsive UI
+2. Titled "THE GREAT RGB (x,y,z) GUESSING GAME" where line 3 is the center of the title for this line.
+3. Top of screen displays: RGB (x, y, z) where "X,Y,Z" are randomly originated numbers representing one of the colored squares.
+4. Underneath shows 3 spans on one line: "Reset Colors", "Try Again!/Correct","EASY/HARD" 
+5. 6 colored squares on the screen, 2 rows of 3.
+6. If guessed wrong when clicked, the guessed square disappears, narrowing the choices
+7. If guessed correctly, All 6 squares appear with the correct color.
+-Estimate about 100 lines of javascript code-
+ 

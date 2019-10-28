@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RGB(R,G,B) Color Game!</title>
+        <link type="text/css" rel="stylesheet" href="color_game.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+      <div class="container-fluid">
+        <div class="title row justify-content-center">
+              <div class="title col-xs-12 text-center"><p>The <span id="answer">rgb(R,G,B)</span> Color Game</p></div>
+          </div>
+        <div class="row justify-content-center">
+            <div id="fresh" class="btn col-xs-3">New Colors</div>
+            <div id="advice" class="btn col-xs-3"></div>
+            <div id="easy" class="btn difficulty col-xs-3">
+              Easy
+            </div><div class="btn col-">/</div>
+            <div id="hard" class="btn difficulty col-xs-3">
+              Hard
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 col-sm-10 color" id="one"></div>
+            <div class="col-md-2 col-sm-10 color" id="two"></div>
+            <div class="col-md-2 col-sm-10 color" id="three"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-2 col-sm-10 color" id="four"></div>
+            <div class="col-md-2 col-sm-10 color" id="five"></div>
+            <div class="col-md-2 col-sm-10 color" id="six"></div>
+        </div>
+    <script type="text/javascript" src="color_game.js"></script>
+      </div>
+    </body>
+</html>
